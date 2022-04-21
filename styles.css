@@ -54,14 +54,49 @@ h2 {
 }
 
 .gameField {
-	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-top: 50px;
+}
+.row {
+	display: flex;
+	justify-content: center;
 }
 .chip {
-	width: 50px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 10px;
 	aspect-ratio: 1/1;
 	background-color: #fff;
+	text-align: center;
 }
 
-.three {
-	background-color: rgb(124, 67, 67);
+.footerType1 {
+	display: flex;
+
+	width: 100%;
+	margin-top: 50px;
 }
+
+.player1 {
+	margin: 10px;
+	border-radius: 15px;
+	width: 30%;
+	height: 70px;
+	background-color: rgb(240, 144, 38);
+}
+.player1 h2 {
+	color: #fff;
+	margin-left: 15px;
+}
+.player1 span {
+	float: right;
+	margin-right: 15px;
+}
+
+.counter p {
+	text-align: justify;
+}
+
+/* попоробуй ::before для блока counter, под необходимый див */
