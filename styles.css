@@ -36,3 +36,32 @@ h2 {
 	display: flex;
 	justify-content: center;
 }
+
+/*                    GAME FIELD SECOND SCREEN                    */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.title {
+	height: 100%;
+}
+.gameBtn {
+	height: 81px;
+	display: flex;
+	align-items: center;
+}
+
+.gameField {
+	/* height: 100%; */
+}
+.chip {
+	width: 50px;
+	aspect-ratio: 1/1;
+	background-color: #fff;
+}
+
+.three {
+	background-color: rgb(124, 67, 67);
+}
